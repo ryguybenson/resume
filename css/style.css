@@ -1,19 +1,30 @@
+.header {
+  text-align: center;
+  color: #60B200;
+}
 .education {
   color: #E02BFF;
-  float: left;
   width: 300px;
+  display: inline-block;
+  margin: 40px;
+  background-color: #B24D18;
   }
 
 .work {
   color: #FF1F5B;
-  float: right;
   width: 300px;
+  display: inline-block;
+  margin: 40px;
+  background-color: #76B292;
 }
 
 .skills {
   color: #E81CB9;
   width: 300px;
-  float: right;
+  text-align: center;
+  display: inline-block;
+  margin: 40px;
+  background-color: #FFF359;
 }
 
 .skill-text {
@@ -24,16 +35,4 @@
 .edu-image, .work-image, .skills-image {
   width: 300px;
   height: 300px;
-}
-
-.edu-image {
-  float: right;
-}
-
-.work-image {
-  float: left;
-}
-
-.skills-image {
-  float: right;
 }

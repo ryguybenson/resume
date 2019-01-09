@@ -1,3 +1,8 @@
+html {
+  background-color: #8A59FF;
+}
+
+
 .header {
   text-align: center;
   color: #60B200;
@@ -8,6 +13,7 @@
   display: inline-block;
   margin: 40px;
   background-color: #B24D18;
+  text-align: center;
   }
 
 .work {
@@ -16,6 +22,7 @@
   display: inline-block;
   margin: 40px;
   background-color: #76B292;
+  text-align: center;
 }
 
 .skills {

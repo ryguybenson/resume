@@ -7,9 +7,17 @@
 }
 
 .skills {
+  background-color: blue;
+  float: right;
+  width: 300px;
   color: #E81CB9
 }
 
 .skill-text {
   font-style: italic;
+}
+
+.education, .experience {
+  width: 300px;
+  float: left;
 }

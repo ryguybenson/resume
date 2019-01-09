@@ -1,23 +1,39 @@
 .education {
   color: #E02BFF;
+  float: left;
+  width: 300px;
   }
 
-.experience {
-  color: #FF1F5B
+.work {
+  color: #FF1F5B;
+  float: right;
+  width: 300px;
 }
 
 .skills {
-  background-color: blue;
-  float: right;
+  color: #E81CB9;
   width: 300px;
-  color: #E81CB9
+  float: right;
 }
 
 .skill-text {
   font-style: italic;
 }
 
-.education, .experience {
+
+.edu-image, .work-image, .skills-image {
   width: 300px;
+  height: 300px;
+}
+
+.edu-image {
+  float: right;
+}
+
+.work-image {
   float: left;
+}
+
+.skills-image {
+  float: right;
 }
